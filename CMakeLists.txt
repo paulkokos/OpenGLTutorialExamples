@@ -3,4 +3,6 @@ project(OpenGLTutorialExamples)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(OpenGLTutorialExamples main.cpp)
+add_subdirectory(Libraries)
+add_subdirectory(tests)
+add_subdirectory(src)
