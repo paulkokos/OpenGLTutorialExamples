@@ -1,1 +1,1 @@
-add_executable(OpenGLTutorialExamples main.cpp)
+add_subdirectory([24]Visitor\ Pattern)

@@ -20,8 +20,8 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="OpenGLTutorialExamples" targetName="OpenGLTutorialExamples" />
       <config projectName="OpenGLTutorialExamples" targetName="tests" />
+      <config projectName="OpenGLTutorialExamples" targetName="122IntrusiveVisitor" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,18 +30,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6fae158-2214-405c-83dc-0f1a035a8e03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Libraries/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests.cpp" afterDir="false" />
+    <list default="true" id="a6fae158-2214-405c-83dc-0f1a035a8e03" name="Default Changelist" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/[22]Strategy Pattern/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[22]Strategy Pattern/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[23]Template Pattern/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[23]Template Pattern/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[23]Template Pattern/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[122]Intrusive Visitor/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[122]Intrusive Visitor/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[122]Intrusive Visitor/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[123]Reflective Visitor/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[123]Reflective Visitor/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[123]Reflective Visitor/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[124]Classic Visitor [double patch]/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[124]Classic Visitor [double patch]/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[124]Classic Visitor [double patch]/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[125]Acyclic Visitor/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[125]Acyclic Visitor/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[125]Acyclic Visitor/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[126]Multimethods/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[126]Multimethods/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[126]Multimethods/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[127]Variant and std..visit/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[127]Variant and std..visit/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/[127]Variant and std..visit/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/[24]Visitor Pattern/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/[22]Strategy Pattern/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,22 +86,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/[24]Visitor Pattern/[122]Intrusive Visitor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\src" />
-      <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\tests" />
-      <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\Libraries" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\src\[24]Visitor Pattern\[122]Intrusive Visitor" />
+      <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\src\[24]Visitor Pattern\[123]Reflective Visitor" />
+      <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\src\[24]Visitor Pattern\[124]Classic Visitor (double patch)" />
+      <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\src\[24]Visitor Pattern\[125]Acyclic Visitor" />
+      <recent name="C:\Users\paulkokos\CLionProjects\OpenGLTutorialExamples\src\[24]Visitor Pattern\[126]Multimethods" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.OpenGLTutorialExamples">
+  <component name="RunManager" selected="CMake Application.122IntrusiveVisitor">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenGLTutorialExamples" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLTutorialExamples" TARGET_NAME="OpenGLTutorialExamples" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLTutorialExamples" RUN_TARGET_NAME="OpenGLTutorialExamples">
+    <configuration name="122IntrusiveVisitor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGLTutorialExamples" TARGET_NAME="122IntrusiveVisitor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenGLTutorialExamples" RUN_TARGET_NAME="122IntrusiveVisitor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -99,7 +122,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.OpenGLTutorialExamples" />
+      <item itemvalue="CMake Application.122IntrusiveVisitor" />
       <item itemvalue="CMake Application.tests" />
     </list>
   </component>
@@ -112,8 +135,16 @@
       <option name="presentableId" value="Default" />
       <updated>1599938845724</updated>
       <workItem from="1599938847248" duration="62000" />
-      <workItem from="1599953453112" duration="418000" />
+      <workItem from="1599953453112" duration="10348000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1599953905417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599953905417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +161,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="624" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599953631522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1599953631522" />
     <state x="750" y="391" key="Github.ShareDialog" timestamp="1599938875537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -139,5 +178,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="654" y="146" key="Github.UntrackedFilesDialog/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1599938881992" />
+    <state width="1865" height="266" key="GridCell.Tab.0.bottom" timestamp="1599992017525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="266" key="GridCell.Tab.0.bottom/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1599992017525" />
+    <state width="1865" height="266" key="GridCell.Tab.0.center" timestamp="1599992017525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="266" key="GridCell.Tab.0.center/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1599992017525" />
+    <state width="1865" height="266" key="GridCell.Tab.0.left" timestamp="1599992017524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="266" key="GridCell.Tab.0.left/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1599992017524" />
+    <state width="1865" height="266" key="GridCell.Tab.0.right" timestamp="1599992017525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="266" key="GridCell.Tab.0.right/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1599992017525" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1599996659255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1599996659255" />
   </component>
 </project>
